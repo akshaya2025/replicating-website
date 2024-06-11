@@ -1,0 +1,7 @@
+For block 2 contents used POSITION IN CSS
+Used FLEX for image positioning
+Used BOX MODEL and CONTENT MODEL in css
+used WIDTH PROPERTY in css 
+used SEMANTIC ELEMENTS in html
+DISPLAY property in css
+used EXTERNAL CSS

@@ -1,0 +1,216 @@
+.page1{
+    padding-top: 70px;
+    height: 250px;
+    width: 100%;
+    text-align:center;
+    color: whitesmoke;
+    background-image: url(https://th.bing.com/th?id=OIP.05gBtkpqfy-OonbTZNVNUgHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2);   
+}
+
+form,h2,h1,h4,h5,h6{
+    text-align:center ;
+}
+
+h7{
+   padding-top: 100px;
+}
+
+img{
+    max-width: 50%;
+  }
+
+.page2{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 300px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+/*box model*/
+.box1{
+    margin: 10px;
+    width: 150px;
+    height: 260px;
+    box-shadow: -1px 0 10px #000000;
+    padding:500px 100px;
+    position: absolute;
+    left: 70px;
+    top: 620px;
+    bottom: auto;
+    object-fit:top;
+    background-color: rgb(255, 0, 81);
+    height: 275px;
+    padding: 0px;
+    border: 65px solid rgb(64, 23, 211);
+    text-align: center;
+}
+
+
+.box2{
+    margin: 10px;
+    width: 150px;
+    height: 200px;
+    box-shadow: -1px 0 10px #000000;
+    padding:100px 100px;
+    position: absolute;
+    right: 70px;
+    top: 620px;
+    object-fit: top;
+    background-color: rgb(0, 128, 38);
+    height: 270px;
+    padding: 0px;
+    border: 65px solid rgb(64, 23, 211);
+    text-align: center;
+}
+.box3{
+    align-items: center;
+    margin: 10px;
+    width: 150px;
+    height: 203px;
+    box-shadow: -1px 0 10px #000000;
+    padding:100px 100px;
+    position: absolute;
+    left: 450px;
+    top: 620px;
+    background-color: brown;
+    height: 270px;
+    object-fit: top;
+    background-color: rgb(128, 0, 0);
+    padding: 0px;
+    border: 65px solid rgb(72, 18, 44);
+    text-align: center;
+}
+
+
+.img{
+    width: 300px;
+    height: 200px;
+    display: flex;
+
+}
+
+h6{
+    font-size: x-large;
+}
+
+.page4{
+    
+    height: 350px;
+    width: 100%;
+    text-align:center;
+    text-decoration: antiquewhite;
+    color: whitesmoke; 
+    position:absolute;
+    top: 1000px;
+    
+}
+.total{
+    position:absolute;
+    top: 1000px;
+}
+
+/*position*/
+
+.rightside{
+    float: left;
+    width: 50%;
+    right: 300px;
+    left: 100px;
+    position: absolute;
+}
+
+
+.leftside{
+    float: right;
+    width: 50%;
+    left: 600px;
+    right: 100px;
+    position: absolute;
+
+}
+
+.page5{
+    float: left;
+    background-color: aquamarine;
+    width: 50%;
+    height: auto;
+    padding-bottom: 17px;
+    
+} 
+
+.page6{
+    float: right;
+    background-color: plum;
+    width: 50%;
+    height: auto;
+    position: relative left;
+    padding-bottom: 40px;
+    padding-top: 0px;
+    text-decoration: white;
+}
+
+h7{
+    font-position: center;
+}
+
+.web solution{
+    float: right;
+    width: 50%;
+    font-weight: bolder;
+    height: 10%;
+    text-decoration: purple;
+}
+.project{
+    
+    float: left;
+    width: 50%;
+    font-weight: bolder;
+    height: 10%;
+    text-decoration: purple;
+
+}
+
+.footer
+{
+    text-align: center;
+    padding: 10px;
+    width:100%;
+    margin: 20px auto;
+    height: 10%;
+}
+.left
+{
+    width:50%;
+    float: left;
+    background-color:grey;
+    color: #fff;
+}
+.right
+{
+    width: 50%;
+    float: left;
+    background-color:grey;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    
+    
+}
+.right font
+{
+    color: blue;
+}
+.blocks{
+    background-color: yellow;
+    height: 30%;
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; 
+}
